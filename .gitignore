@@ -1,0 +1,5 @@
+# tex related stuff
+*.aux
+*.log
+*.out
+*.pdf
