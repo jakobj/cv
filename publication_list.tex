@@ -1,0 +1,31 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[english]{babel}
+\usepackage{array}
+\usepackage{parskip}
+\usepackage[big]{layaureo}
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+\usepackage{longtable}
+
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour}
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty}
+
+\par{\begin{flushright}{\Large Jakob Jordan}\end{flushright}\par}
+
+\input{publications}
+
+\end{document}
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: "publication_list"
+%%% End:
