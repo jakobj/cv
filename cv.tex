@@ -3,7 +3,7 @@
 \usepackage[english]{babel}
 \usepackage{array}
 \usepackage{parskip}
-\usepackage[big]{layaureo}
+% \usepackage[big]{layaureo}
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
 \usepackage{longtable}
 
@@ -14,6 +14,8 @@
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry} % Version for Bern paper format
 
 \begin{document}
 
@@ -27,7 +29,7 @@
 
 \input{education}
 
-\newpage
+% \newpage
 
 \input{skills}
 
@@ -35,11 +37,13 @@
 
 \input{workshops}
 
-\newpage
+% \newpage
 
 \input{talks}
 
 \input{students}
+
+\input{grants}
 
 \input{outreach}
 
