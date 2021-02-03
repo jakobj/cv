@@ -4,3 +4,6 @@ all: cv.pdf
 
 cv.pdf: cv.tex $(TEXFILES)
 	pdflatex cv.tex
+
+cv_jakob_jordan: cv_jakob_jordan.tex $(TEXFILES)
+	pdflatex cv_jakob_jordan.tex
